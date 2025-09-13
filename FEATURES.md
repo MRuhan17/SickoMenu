@@ -91,11 +91,11 @@
 - **Spell Check** Highlights misspelled words
 - **Spam by Everyone** *(Only with Safe Mode disabled)* Spams the chat as all players with your desired message (Default: OFF)
 - **Console** Shows a console window that tracks all game events (Default: OFF)
-- **Allow Everyone to NoClip** *(Only as host/Safe Mode disabled)* Allows every player to walk through walls provided they're not a cheater as well
+- **Allow Everyone to NoClip** *(Only with Safe Mode disabled)* Allows every player to walk through walls provided they're not a cheater as well
 - **Kill Everyone** *(Only as host/Safe Mode disabled)* Kills all players as yourself
-- **Protect Everyone** Casts a guardian angel shield with the same color as the player around them 
+- **Protect Everyone** *(Only as host/Safe Mode disabled)* Casts a guardian angel shield with the same color as the player around them 
 - **Disable Venting** Instantly kicks anyone in the vents out (Default: OFF)
-- **Spam Report** Spams dead body reports (Default: OFF)
+- **Spam Report** *(Only as host/Safe Mode disabled)* Spams dead body reports (Default: OFF)
 - **Kill All Crewmates** *(Only as host/Safe Mode disabled)* Kills all crewmates as yourself
 - **Kill All Impostors** *(Only as host/Safe Mode disabled)* Kills all impostors as yourself
 - **Suicide All Crewmates** *(Only with Safe Mode disabled)* Kills all crewmates as themselves
@@ -122,10 +122,10 @@ View the game options!
 - **Always show Chat Button** Always shows the chat button even in game (Default: OFF)
 - **Allow Copy/Paste in Chat** Allows you to copy, paste, or cut text into chat (Default: OFF)
 - **Read Messages by Ghosts** Allows you to read ghost messages (Default: OFF)
-- **Read and Send AUM Chat** Allows you to read AUM chat and send via "/aum [message]" (Default: OFF)
+- **Read and Send Sicko Chat** Allows you to read Sicko chat and send via "/sc [message]" (Default: OFF)
 - **Custom Name** Customize your name with effects such as gradient, RGB, size, italics, underline and strikethrough (Default: OFF)
 - **Server-sided Custom Name** *(Only as host/Safe Mode disabled)* Shows your custom name for everyone (Default: OFF)
-- **Reveal Roles** Reveals a player's roles and tasks completed (Default: OFF)
+- **Reveal Roles** Reveals a player's roles and number of tasks completed (Default: OFF)
 - **Abbrv. Role** Shortens the role name (Default: OFF)
 - **Player Colored Dots Next To Names** Shows a dot with the player's color (Default: OFF)
 - **Show Player Info in Lobby** Reveals level, friend code, etc. of player (Default: OFF)
@@ -153,16 +153,15 @@ View the game options!
 - **Shapeshift without Animation** Allows you to shapeshift without the animation (Default: OFF)
 - **Copy Lobby Code on Disconnect** Automatically copies the lobby code to your clipboard when you get disconnected unintentionally (Default: OFF)
 - **NoClip** Allows you to walk through walls (Default: OFF)
-- **Kill Other Impostors** *(Only with Safe Mode disabled)* Allows you to kill fellow impostors (Default: OFF)
+- **Kill Other Impostors** *(Only with Impostor/Host/Safe Mode disabled)* Allows you to kill fellow impostors (Default: OFF)
 - **Unlock Kill Button** *(Only with Safe Mode disabled)* Allows you to use kill button at any time (Default: OFF)
 - **Allow Killing in Lobbies** *(Only with Safe Mode disabled)* Allows you to kill in lobbies (Default: OFF)
 - **Kill While Vanished** *(Only with Safe Mode disabled)* Allows you to kill while being vanished as a phantom (Default: OFF)
 - **Infinite Kill Range** Extends your kill reach (Default: OFF)
-- **Bypass Guardian Angel Protections** Allows you to kill protected players (Default: OFF)
 - **Do Tasks as Impostor** Allows you to complete tasks as impostor (Default: OFF)
-- **Always Use Kill Exploit** Forces the kill exploit to always be used, thus bypassing Disable Kills (Default: OFF)
+- **Report Body on Murder** Instantly reports a body when someone dies (Default: OFF)
 - **Fake Alive** Appear to yourself as alive even if you're dead (Default: OFF)
-- **God Mode** Prevents you from dying (Default: OFF)
+- **God Mode** *(Only with Host/Safe Mode disabled)* Prevents you from dying (Default: OFF)
 - **(Shift + Right Click) to Teleport** Teleports you to wherever you clicked (Default: OFF)
 - **Rotate Everyone** Rotates everyone around you only for yourself based on the rotation radius (Default: OFF)
 - **Server-sided Rotation** *(Only with Safe Mode disabled)* Rotates everyone around you that can be seen by everyone (Default: OFF)
@@ -237,15 +236,13 @@ A dedicated player menu for viewing and manipulating players
 - **Shift** *(Only as Shapeshifter/Safe Mode disabled)* Shapeshifts you into the selected player
 - **Protect** *(Only as Guardian Angel/Host/Safe Mode disabled)* Casts a guardian angel protection on the selected player
 - **Level Farm** Spam kills players to get XP for levels
-- **Force Vanish** Force a phantom to vanish
-- **Force Appear** Force a phantom to appear
 - **Steal Data** Get someone's PUID and friend code
 - View the player's tasks (and complete them with Safe Mode disabled)
 
 ### Trolling
 <img width="400" height="300" alt="Screenshot 2025-09-12 161247" src="https://github.com/user-attachments/assets/25b76c4d-97ea-4a50-8a2c-3aea86ad7b33" />
 
-- **Allow Player to NoClip** *(Only as host/Safe Mode disabled)* Allows the selected player to walk through walls
+- **Allow Player to NoClip** *(Only with Safe Mode disabled)* Allows the selected player to walk through walls
 - **Force Meeting By** Forces an emergency meeting by the selected player
 - **Self-Report** Forces the selected player to report their own body
 - **Report on murder** Forces the selected player to auto-report players they kill
@@ -273,7 +270,7 @@ A dedicated player menu for viewing and manipulating players
 - **Force Level** *(Only with Safe Mode disabled)* Forces the player's level to be the desired level
 - **Whisper To** Makes your chat message whisper to the selected player
 - **Fake AUM Detection** Makes AUM users falsely flag the selected player for AUM
-- **Fake AUM Chat** Makes AUM users falsely receive an AUM chat message from the selected player
+- **Fake Sicko Chat** Makes Sicko users falsely receive a  chat message from the selected player
 - **Chat As** *(Only with Safe Mode disabled)* Spoofs your chat messages from the selected player
 
 ## ✅ Tasks
@@ -285,7 +282,7 @@ A dedicated player menu for viewing and manipulating players
 - **Play Animations** Plays the map-specific animations specified
 - **Play Medbay Scan Animation** Plays a medbay scan animation on yourself
 - **Fake Cameras in Use** Fakes the cameras being used when there's no one using them
-- **Bypass Visual Tasks Being Off** Others can still see your task visuals regardless of the game’s visual task settings.
+- **Bypass Visual Tasks Being Off** *(Only with visuals off)* Others can still see your task visuals regardless of the game’s visual task settings
 
 ## 🚨 Sabotage
 <img width="400" height="300" alt="Screenshot 2025-09-12 161300" src="https://github.com/user-attachments/assets/ec857216-c61b-430a-836a-830e76f4f0ba" />
